@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-facade-xml type="seed-initial">
+	<moqui.basic.Enumeration description="Family or Friends" enumId="EarbPeople" enumTypeId="EmploymentApplicationReferredBy"/>
+	<moqui.basic.Enumeration description="LinkedIn" enumId="EarbLinkedIn" enumTypeId="EmploymentApplicationReferredBy"/>
+	<moqui.basic.Enumeration description="Indeed" enumId="EarbIndeed" enumTypeId="EmploymentApplicationReferredBy"/>
+	<moqui.basic.Enumeration description="CraigsList" enumId="EarbCraigsList" enumTypeId="EmploymentApplicationReferredBy"/>
+	<moqui.basic.Enumeration description="GitHub" enumId="EarbGitHub" enumTypeId="EmploymentApplicationReferredBy"/>
+	<moqui.basic.Enumeration description="Referral" enumId="EarbReferral" enumTypeId="EmploymentApplicationReferredBy"/>
+	<moqui.basic.Enumeration description="Other" enumId="EarbOther" enumTypeId="EmploymentApplicationReferredBy"/>
+
+	<ContactMechPurpose contactMechPurposeId="WebUrlGitHub" contactMechTypeEnumId="CmtWebAddress"
+	                    description="Website URL - GitHub"/>
+	<ContactMechPurpose contactMechPurposeId="WebUrlPortfolio" contactMechTypeEnumId="CmtWebAddress"
+	                    description="Website URL - Portfolio URL"/>
+	<ContactMechPurpose contactMechPurposeId="WebUrlOther" contactMechTypeEnumId="CmtWebAddress"
+	                    description="Website URL - Other URL"/>
+
+</entity-facade-xml>
